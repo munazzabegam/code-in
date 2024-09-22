@@ -2,6 +2,7 @@ public class Array1 {
     public static void main(String[] args) {
         System.out.println(firstLast6(new int[]{1, 2, 6}));
         System.out.println(sameFirstLast(new int[]{1, 2, 6}));
+        System.out.println(makePi());
     }
 
     public static boolean firstLast6(int[] nums) {
@@ -23,6 +24,10 @@ public class Array1 {
         }else {
             return false;
         }
+    }
+
+    public static int[] makePi (){
+        return new int[] {3,1,4};
     }
 }
 
