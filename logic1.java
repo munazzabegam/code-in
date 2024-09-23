@@ -14,4 +14,11 @@ public class logic1 {
         }else
         return 1;
     }
+
+    //squirrelPlay
+    public static void boolean squirrelPlay(int temp, boolean inSummer){
+        
+    }
+
+
 }
