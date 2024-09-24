@@ -2,14 +2,22 @@ public class string1 {
     public static void main(String[] args) {
         //helloName
         System.out.println(helloName("Bob!"));
+
         //makeAbba
         System.out.println(makeAbba("Hi","Bye"));
+
         //makeOutword
         System.out.println(makeOutWord("<<>>", "word"));
+
         //extraEnd
         System.out.println(extraEnd("word"));
+
         //firstTwo
         System.out.println(firstTwo("a"));
+
+        //makeTags
+        System.out.println(makeTags("i","Yoy"));
+
         
     }
 
@@ -44,6 +52,11 @@ public class string1 {
         }else{
             return str.substring(0, 2);
         }
+    }
+
+    //makeTags
+    public static String makeTags(String tag, String word){
+        return "<"+tag+">"+word+"</"+tag+">";
     }
 
 
