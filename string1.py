@@ -16,7 +16,6 @@ print(extraEnd("hello"))
 
 #firstTwo
 def firstTwo(str):
-    return str[:2]
-    
+    return str[:2] 
 print(firstTwo("a"))
 
