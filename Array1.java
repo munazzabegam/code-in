@@ -8,6 +8,12 @@ public class Array1 {
 
         //makePi
         System.out.println(makePi());
+
+        //commonEnd
+        System.out.println(commonEnd(new int[]{1,2,3},new int[]{1,3,3}));
+
+        //sum3
+        System.out.println(sum3(new int[] {1,2,3}));
     }
 
     
@@ -38,6 +44,24 @@ public class Array1 {
     //makePi
     public static int[] makePi (){
         return new int[] {3,1,4};
+    }
+
+    // commonEnd
+    public static boolean commonEnd(int[] a, int[] b){
+        if(a[0] == b[0] || a[a.length-1]==b[b.length-1]){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    //sum3
+    public static int sum3(int [] nums){
+        int sum = 0;
+        for(int i=0; i<=nums.length-1;i++){
+            sum = sum + nums[i];
+        }
+        return sum;
     }
 }
 
