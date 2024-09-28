@@ -41,10 +41,12 @@ public class Array1 {
         }
     }
 
+
     //makePi
     public static int[] makePi (){
         return new int[] {3,1,4};
     }
+
 
     // commonEnd
     public static boolean commonEnd(int[] a, int[] b){
@@ -54,6 +56,7 @@ public class Array1 {
             return false;
         }
     }
+
 
     //sum3
     public static int sum3(int [] nums){
