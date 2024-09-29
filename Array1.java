@@ -56,6 +56,7 @@ public class Array1 {
             return false;
         }
     }
+    
 
 
     //sum3
