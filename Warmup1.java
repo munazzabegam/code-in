@@ -11,6 +11,9 @@ public class warmup{
         System.out.println(parrotTrouble(true,6));
         System.out.println(parrotTrouble(false,6));
 
+        //makes10
+        System.out.println(makes10(10,1));
+
 
     }
 
@@ -37,5 +40,10 @@ public class warmup{
     //parrotTrouble
     public static boolean parrotTrouble(boolean talking, int  hour){
         return talking && (hour<7 || hour>20);
+    }
+
+    //makes10
+    public static boolean makes10(int a, int b){
+        return (a==10 || b==10 || a+b ==10);
     }
 }
