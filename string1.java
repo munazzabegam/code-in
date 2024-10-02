@@ -1,4 +1,4 @@
-public class string1 {
+public class String1 {
     public static void main(String[] args) {
         //helloName
         System.out.println(helloName("Bob!"));
@@ -20,6 +20,9 @@ public class string1 {
 
         //firstHalf
         System.out.println(firstHalf("HelloThere"));
+
+        //withoutEnd
+        System.out.println(withoutEnd("Hello"));
 
 
         
@@ -67,5 +70,9 @@ public class string1 {
     public static String firstHalf(String str){
         return str.substring(0,(str.length())/2);
     } 
+
+    public static String withoutEnd(String str){
+        return str.substring(1,str.length()-1);
+    }
 
 }

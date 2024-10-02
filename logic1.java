@@ -1,4 +1,4 @@
-public class logic1 {
+public class Logic1 {
     public static void main (String[] args){
         //dateFashion 
         System.out.println(dateFashion(10, 2));
