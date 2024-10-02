@@ -18,6 +18,9 @@ public class string1 {
         //makeTags
         System.out.println(makeTags("i","Yoy"));
 
+        //firstHalf
+        System.out.println(firstHalf("HelloThere"));
+
 
         
     }
@@ -60,6 +63,8 @@ public class string1 {
         return "<"+tag+">"+word+"</"+tag+">";
     }
 
-
+    public static String firstHalf(String str){
+        return str.substring(0,(str.length())/2);
+    } 
 
 }
