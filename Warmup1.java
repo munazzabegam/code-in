@@ -14,6 +14,9 @@ public class warmup{
         //makes10
         System.out.println(makes10(10,1));
 
+        //nearHundred
+        System.out.println(nearHundred(93));
+
 
     }
 
@@ -45,5 +48,10 @@ public class warmup{
     //makes10
     public static boolean makes10(int a, int b){
         return (a==10 || b==10 || a+b ==10);
+    }
+
+    //nearHundred 
+    public static boolean nearHundred(int n){
+        return (Math.abs(100 - n)<= 10|| Math.abs(200-n)<=10);
     }
 }
